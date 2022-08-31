@@ -1,0 +1,9 @@
+.posts{
+    /* border: 1px solid red; */
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    
+}

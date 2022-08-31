@@ -1,0 +1,69 @@
+.login{
+    /* border: 1px solid red; */
+   height: calc(100vh - 50px);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(rgba(85, 84, 84, 0.5),
+   rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/3944406/pexels-photo-3944406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label {
+margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.loginButton:hover{
+    background-color: teal;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: #c19595;
+}
+
+.LoginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.LoginRegisterButton:hover{
+    background-color: lightcoral;
+}
+
+
